@@ -25,6 +25,10 @@
 🔗
 
 ![image](https://user-images.githubusercontent.com/126591306/233263179-b08d4a63-6a75-4a54-b96a-0555ee69b0c2.png) <br/>
+  
+<img src="https://user-images.githubusercontent.com/126591306/233263179-b08d4a63-6a75-4a54-b96a-0555ee69b0c2.png width="200" height="400"/>
+
+  
 
 ![image](https://user-images.githubusercontent.com/126591306/233263215-aaa1f1af-1b3b-4122-96ce-05edb6ac4921.png)
 
