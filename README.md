@@ -21,13 +21,13 @@
 
 <h1>🪂결과🪂</h1>
 
- 🔗메인페이지
-<img src="https://user-images.githubusercontent.com/126591306/233263179-b08d4a63-6a75-4a54-b96a-0555ee69b0c2.png" width="500" height="300"/>
- footer에 쿠키를 설정하여 테마를 바꿀 수 있도록 함.
+ 🔗메인페이지 <br/>
+<img src="https://user-images.githubusercontent.com/126591306/233263179-b08d4a63-6a75-4a54-b96a-0555ee69b0c2.png" width="500" height="300"/> <br/>
+ footer에 쿠키를 설정하여 테마를 바꿀 수 있도록 함.<br/>
  
-🔗회원가입 페이지
- <img src="https://user-images.githubusercontent.com/126591306/233263215-aaa1f1af-1b3b-4122-96ce-05edb6ac4921.png" width="500" height="300"/>
-DB와 연결되는 UserDao에서 이메일로 DB에 정보가 있는지를 체크하여, DB에  있는 사용자라면 아이디를 만들어주지 않고 에러 메세지를 표시해주고 DB에 없는 사용자라면 회원가입을 처리하도록 함.
+🔗회원가입 페이지<br/>
+ <img src="https://user-images.githubusercontent.com/126591306/233263215-aaa1f1af-1b3b-4122-96ce-05edb6ac4921.png" width="500" height="300"/> <br/>
+DB와 연결되는 UserDao에서 이메일로 DB에 정보가 있는지를 체크하여, DB에  있는 사용자라면 아이디를 만들어주지 않고 에러 메세지를 표시해주고 DB에 없는 사용자라면 회원가입을 처리하도록 함.<br/>
  
 회원가입 프로세스 
  
