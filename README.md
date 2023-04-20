@@ -24,6 +24,11 @@
 <h4>회원가입 페이지</h4>
 🔗
 
+![image](https://user-images.githubusercontent.com/126591306/233263179-b08d4a63-6a75-4a54-b96a-0555ee69b0c2.png) <br/>
+
+![image](https://user-images.githubusercontent.com/126591306/233263215-aaa1f1af-1b3b-4122-96ce-05edb6ac4921.png)
+
+
 <h4>회원탈퇴 페이지</h4>
 🔗
 
