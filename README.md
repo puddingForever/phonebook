@@ -12,7 +12,7 @@
 
 <h3>시스템 구상</h3>
 <h4>회원가입 프로세스</h4>
-
+<img src="https://user-images.githubusercontent.com/126591306/234473604-836e73c1-767a-4a17-84a5-e87f0d337cbe.png" width="500" height="300"/>
 
 <h4>회원탈퇴  프로세스</h4>
 <h4>로그인 프로세스</h4>
