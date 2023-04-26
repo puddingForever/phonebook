@@ -15,23 +15,23 @@
 <h4>회원가입 프로세스</h4>
 <img src="https://user-images.githubusercontent.com/126591306/234473604-836e73c1-767a-4a17-84a5-e87f0d337cbe.png" width="500" height="300"/>
  
- [GET 처리]
-1.클라이언트는 GET방식으로 JSP를 요청한다.
-2.Controller에서 GET방식으로 JSP/Form을 리턴한다.
+ [GET 처리] <br/>
+1.클라이언트는 GET방식으로 JSP를 요청한다.<br/>
+2.Controller에서 GET방식으로 JSP/Form을 리턴한다.<br/>
  
- [POST 처리]
-1. 클라이언트는 POST방식으로 데이터를 보내는 요청을 한다.
-2.Controller에서 Request로 보낸 데이터가 입력이 가능한지 확인하기 위해 Service의 registerUser()를 실행한다.
-3.Service의 registerUser()는 DAO의 getUserByEmail()를 사용하여 이메일이 존재하는지 확인요청을 한다. 
-4.DAO는 SELECT구문과 where절을 이용하여 사용자의 이메일이 DB에 존재하는지 확인한다.
- (이메일이 존재하는 경우)
-5.에러가 나는 경우 값이 클라이언트 정보가 입력되지 않도록 DAO의  getUserByEmail()에게 정보가 입력될 수 없다고 전달한다.
-6.DAO는 해당 리턴값을 service의 registerUser()에게 전달하고 Controller는 requestDispatcher를 이용하여 request를 다시 클라이언트에게 돌려보낸다.
- (이메일이 존재하지 않는 경우)
- 7.이메일이 존재하는 경우 DAO는 Service의 getUserByEmail()에게 중복된 이메일이 없다고 알려준다.
- 8.에러가 없기 때문에 Service에서는 다시 DAO에게 회원가입이 허용하다는 코드를 실행하도록 한다.
- 9.DAO는 Insert문을 활용하여 DB에 회원의 정보를 등록해준다.
- 10.회원정보가 성공적으로 등록되었다면 , 이중등록을 막기위해 location.href나 sendRedirect를 이용하여 브라우저가 새로운 request객체를 요청하도록 만들고 메인 페이지로 이동시켜준다. 
+ [POST 처리]<br/>
+1. 클라이언트는 POST방식으로 데이터를 보내는 요청을 한다.<br/>
+2.Controller에서 Request로 보낸 데이터가 입력이 가능한지 확인하기 위해 Service의 registerUser()를 실행한다.<br/>
+3.Service의 registerUser()는 DAO의 getUserByEmail()를 사용하여 이메일이 존재하는지 확인요청을 한다. <br/>
+4.DAO는 SELECT구문과 where절을 이용하여 사용자의 이메일이 DB에 존재하는지 확인한다.<br/>
+ (이메일이 존재하는 경우)<br/>
+5.에러가 나는 경우 값이 클라이언트 정보가 입력되지 않도록 DAO의  getUserByEmail()에게 정보가 입력될 수 없다고 전달한다.<br/>
+6.DAO는 해당 리턴값을 service의 registerUser()에게 전달하고 Controller는 requestDispatcher를 이용하여 request를 다시 클라이언트에게 돌려보낸다.<br/>
+ (이메일이 존재하지 않는 경우)<br/>
+ 7.이메일이 존재하는 경우 DAO는 Service의 getUserByEmail()에게 중복된 이메일이 없다고 알려준다.<br/>
+ 8.에러가 없기 때문에 Service에서는 다시 DAO에게 회원가입이 허용하다는 코드를 실행하도록 한다.<br/>
+ 9.DAO는 Insert문을 활용하여 DB에 회원의 정보를 등록해준다.<br/>
+ 10.회원정보가 성공적으로 등록되었다면 , 이중등록을 막기위해 location.href나 sendRedirect를 이용하여 브라우저가 새로운 request객체를 요청하도록 만들고 메인 페이지로 이동시켜준다. <br/>
  
  
  
