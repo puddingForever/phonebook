@@ -1,64 +1,40 @@
-# 📪  Phonebook Application 📞
-<p>Java EE, myBatis, H2 </p>
+# Phonebook
+[Java EE] 연락처 앱 프로젝트
 
-<h1>💭연락처 프로젝트 구상 및 접근방법<h1>
+### 프로젝트 기간
++ 2023-04-18 ~ 2023-04-29
 
-<h3>프로젝트명</h3>
- 
-<h4>Phonebook Application</h4>
+### 기술스택
++ Java EE,Java1.8,JSP,JSTL,myBatis,H2,JavaScript
 
-<h3>프로젝트 개요</h3>
-<p>사용자는 웹사이트 회원가입 후, 친구목록에 연락처를 추가할 수 있음</p>
-<p>추가된 연락처를 한번에 볼 수 있는 목록이 있으며, 연락처 삭제 가능</p>
+### 기능
++ 쿠키를 이용한 CSS 테마 변경 
++ Session을 이용한 이름 바인딩
++ BCrypt를 사용한 비밀번호 암호화
++ 로그인 , 회원가입 유효성 검사 
++ WebFilter를 사용하여 로그인유저에게만 사이트 특정 권한부여 
++ 연락처 추가,수정,삭제 
 
-<h3>시스템 구상</h3>
-<h4>회원가입 프로세스</h4>
-<img src="https://user-images.githubusercontent.com/126591306/234473604-836e73c1-767a-4a17-84a5-e87f0d337cbe.png" width="500" height="300"/>
-
-<h4>회원탈퇴  프로세스</h4>
-<h4>로그인 프로세스</h4>
- 
- 
-
-<h4>로그아웃 프로세스</h4>
-
-<h1>🪂결과🪂</h1>
-
- 🔗메인페이지 <br/>
-<img src="https://user-images.githubusercontent.com/126591306/233263179-b08d4a63-6a75-4a54-b96a-0555ee69b0c2.png" width="500" height="300"/> <br/>
- footer에 쿠키를 설정하여 테마를 바꿀 수 있도록 함.<br/>
- 
-🔗회원가입 페이지<br/>
- <img src="https://user-images.githubusercontent.com/126591306/233263215-aaa1f1af-1b3b-4122-96ce-05edb6ac4921.png" width="500" height="300"/> <br/>
-DB와 연결되는 UserDao에서 이메일로 DB에 정보가 있는지를 체크하여, DB에  있는 사용자라면 아이디를 만들어주지 않고 에러 메세지를 표시해주고 DB에 없는 사용자라면 회원가입을 처리하도록 함.<br/>
- 
-회원가입 프로세스 
- 
-
-
-<h4>회원탈퇴 페이지</h4>
-🔗
-
-<h4>로그인 페이지</h4>
-🔗
-
-<h4>연락처 추가 페이지</h4>
-🔗
-
-<h4>연락처 삭제 페이지</h4>
-🔗
-
-<h4>로그아웃 페이지</h4>
-🔗
+### ERD
+![image](https://github.com/puddingForever/phonebook/assets/126591306/edf63f48-58d5-4ae9-8024-c7c67f40a1dc)
 
 
 
-<h3>📈예상효과</h3>
+### 화면 
++ 메인화면
+<img src="https://github.com/puddingForever/phonebook/assets/126591306/2b258603-b058-4afd-966f-52a07cae91c7" width="300" />
+<img src="https://github.com/puddingForever/phonebook/assets/126591306/f04ea2f5-5570-4f49-89a7-26d28bfcbe07" width="300" />  <br>
+쿠키를 이용하여 하단 배경화면 클릭시 CSS 테마변경 , 회원가입과 로그인시 Session에 이름 바인딩
+<br>
 
-  
-  
-<h3>🚨결론</h3>
+
++ 로그인,회원가입 <br>
+<img src="https://github.com/puddingForever/phonebook/assets/126591306/d8631ace-1651-4e24-aeaf-7fd07c0ebc6f" width="300" />
+<img src="https://github.com/puddingForever/phonebook/assets/126591306/0c9c05fc-5533-4cab-aa51-c12e6f77ac34" width="300" /> <br>
+회원정보 유효성 검사 및 비밀번호 암호화사용 <br><br>
 
 
-
-
++ 연락처등록 후 목록페이지, 정보확인 , 수정 , 삭제 
+<img src="https://github.com/puddingForever/phonebook/assets/126591306/73b33bde-4a99-415b-863d-ec3c10d65ab3" width="300" />
+<img src="https://github.com/puddingForever/phonebook/assets/126591306/27cc4ca1-463b-4be1-8304-44433ac30856" width="300" /> 
+<img src="https://github.com/puddingForever/phonebook/assets/126591306/f46853e1-8ea0-4ab6-a729-5c73e5b3b79e" width="300" /> 
